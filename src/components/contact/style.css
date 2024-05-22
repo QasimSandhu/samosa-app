@@ -1,0 +1,45 @@
+.contact-section {
+    margin: 30px 0 20px;
+}
+
+.contact-section-info {
+    padding: 30px;
+    border-radius: 30px;
+    background: linear-gradient(145deg, #ececec, #fff);
+    box-shadow: 28px 28px 45px #e6e6e6, -28px -28px 45px #fff;
+}
+
+.contact-details {
+    padding: 0 30px;
+}
+
+.call-now i,
+.contact-details i {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 26px;
+    margin: 0 auto 25px;
+    background: #f3f3f5;
+    box-shadow: 9px 9px 12px #b2b2b3, -9px -9px 12px #fff;
+    color: #930320;
+}
+
+.contact-details a {
+    font-size: 18px;
+    line-height: 28px;
+    color: #0d0d25;
+    transition: 0.8s cubic-bezier(0.22, 0.78, 0.45, 1.02);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.call-now {
+    border-left: 3px dotted rgba(13, 13, 37, .5);
+    border-right: 3px dotted rgba(13, 13, 37, .5);
+}

@@ -1,0 +1,20 @@
+.primary-btn {
+    width: 100%;
+    min-height: 50px;
+    border-radius: 10px;
+}
+
+.sec-btn.primary-btn {
+    background: linear-gradient(145deg, #2da55e, #36c46f);
+    color: #ffffff;
+    border: none;
+    box-shadow: 4px 4px 8px #9e9e9e, -4px -4px 8px #fff;
+    border-radius: 10px;
+}
+
+.sec-btn.primary-btn:hover {
+    background: linear-gradient(145deg, #0c0c21, #0e0e28);
+    border-radius: 10px;
+    box-shadow: none;
+    color: #fff;
+}

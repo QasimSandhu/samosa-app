@@ -1,0 +1,62 @@
+#app {
+    height: 100%
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+.swiper-pagination {
+    padding: 10px 20px !important;
+    display: inline-block !important;
+    border-radius: 60px !important;
+    background: linear-gradient(145deg, #ececec, #fff) !important;
+    box-shadow: 28px 28px 55px #d4d4d4, -28px -28px 55px #fff !important;
+    max-width: -moz-fit-content !important;
+    max-width: fit-content !important;
+    left: 50% !important;
+    transform: translate(-50%) !important;
+    bottom: 0 !important;
+}
+
+.swiper-pagination-bullet {
+    width: 10px !important;
+    height: 10px !important;
+    margin: 0 10px !important;
+    border-radius: 10px !important;
+    transition: 0.8s cubic-bezier(0.22, 0.78, 0.45, 1.02);
+}
+
+.swiper-pagination-bullet-active {
+    background: #930320 !important;
+    width: 30px !important;
+}

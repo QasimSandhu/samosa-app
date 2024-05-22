@@ -1,0 +1,28 @@
+.sec-btn {
+    min-width: 120px;
+    min-height: 58px;
+    background: #f3f3f5;
+    box-shadow: 9px 9px 12px #b2b2b3, -9px -9px 12px #fff;
+    text-align: center;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    z-index: 2;
+    display: flex;
+    transition: .3s;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    color: var(--dark-color);
+    text-transform: none;
+    font-weight: 500;
+    padding: 5px 18px;
+    border-radius: 30px;
+}
+
+.sec-btn:hover {
+    color: #000000;
+    background: #f3f3f5;
+    box-shadow: inset 8px 8px 12px #e2e2e2, inset -8px -8px 12px #fff;
+    border-radius: 25px;
+}

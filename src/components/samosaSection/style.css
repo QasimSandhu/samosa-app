@@ -1,0 +1,40 @@
+/* src/components/style.css */
+.two-col-sec {
+    position: relative;
+    padding: 60px 0;
+    background-color: #F3F3F5;
+}
+
+.food-shape {
+    position: absolute;
+    top: -70px;
+    right: 70%;
+    pointer-events: none;
+}
+
+.sec-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.sec-img:hover {
+    transform: scale(1.05);
+}
+
+.sec-text {
+    text-align: left;
+    padding: 60px 30px 0;
+}
+
+.xxl-title {
+    text-transform: capitalize;
+    font-size: 52px;
+    line-height: 77px;
+    margin-bottom: 30px;
+}
+
+.sec-text p {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
